@@ -301,7 +301,6 @@ Simbol dari Logical Operator adalah sebagai berikut:
 		    teks = "Warna tidak terdeteksi";
 	}		
 
-
 ## JavaScript - LOOPING
 
 > __Looping__ adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
@@ -320,15 +319,18 @@ Simbol dari Logical Operator adalah sebagai berikut:
     Contoh :
 	    let angka = 1
 	    while (angka <= 10){
-		console.log(angka); angka++;
+		console.log(angka); 
+        angka++;
 	    }
 -    __DO WHILE__ ingin menjalankan pengulangan 1 kali sebelum dilakukan pengecekan kondisi
 
     Contoh :
 		m = 1
 		do {
-		   document.write("Ini pengulangan ke "+m+"<br>")
+		   console.log("hello")
 		   m++
 		}while(m<=4)
+
+
 
 
