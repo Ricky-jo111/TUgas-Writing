@@ -285,16 +285,18 @@ Simbol dari Logical Operator adalah sebagai berikut:
 -    __WHILE LOOP__ akan menjalankan instruksi pengulangan kondisi bernilai TRUE.Gunakan WHILE LOOP jika kita tidak mengetahui jumlah pasti pengulangan.
 
     Contoh :
-    let angka = 1
-    while (angka <= 10){
-        console.log(angka); angka++;
-    }
+	    let angka = 1
+	    while (angka <= 10){
+		console.log(angka); 
+        angka++;
+	    }
 -    __DO WHILE__ ingin menjalankan pengulangan 1 kali sebelum dilakukan pengecekan kondisi
 
     Contoh :
-    do{
-        Console.log("Nyala Mesin!");
-        bensin--;
-    } while (bensin > 0)
+		m = 1
+		do {
+		   console.log("hello")
+		   m++
+		}while(m<=4)
 
-- __Nested Loop__ Jika kita membuat looping didalam looping. Maka ini dinamakan Nested Loop.
+
