@@ -297,4 +297,4 @@ Simbol dari Logical Operator adalah sebagai berikut:
         bensin--;
     } while (bensin > 0)
 
-- __Nested Loop__ Jika kita membuat looping didalam looping. Maka ini dinamakan Nested Loop.
+
