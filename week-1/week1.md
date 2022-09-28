@@ -318,17 +318,17 @@ Simbol dari Logical Operator adalah sebagai berikut:
 -    __WHILE LOOP__ akan menjalankan instruksi pengulangan kondisi bernilai TRUE.Gunakan WHILE LOOP jika kita tidak mengetahui jumlah pasti pengulangan.
 
     Contoh :
-    let angka = 1
-    while (angka <= 10){
-        console.log(angka); angka++;
-    }
+	    let angka = 1
+	    while (angka <= 10){
+		console.log(angka); angka++;
+	    }
 -    __DO WHILE__ ingin menjalankan pengulangan 1 kali sebelum dilakukan pengecekan kondisi
 
     Contoh :
-	m = 1
-	do {
-	   document.write("Ini pengulangan ke "+m+"<br>")
-	   m++
-	}while(m<=4)
+		m = 1
+		do {
+		   document.write("Ini pengulangan ke "+m+"<br>")
+		   m++
+		}while(m<=4)
 
 
