@@ -51,19 +51,19 @@ _Notes :_
 buat didalam foler yang akan di push ke repo git
 >   #### 1. Git Init
             
-        git init     
+        git init    
 
->   #### 2. Git Status ( mengecek status git kita apakah ada perubahan atau tidak.  )
-
-        git Status
-
->   #### 3. Git add .  ( untuk menambahkan semua file dalam folder  )
+>   #### 2. Git add .  ( untuk menambahkan semua file dalam folder  )
 
         git add . 
 
->   #### 4. Git commit ( menambahkan pesan atas perubahan yang terjadi dalam file atau folder )
+>   #### 3. Git commit ( menambahkan pesan atas perubahan yang terjadi dalam file atau folder )
 
         git commit -m "Commit Pertama"
+
+ >  #### 4. Git commit ( menambahkan pesan atas perubahan yang terjadi dalam file atau folder )
+	
+	git remote add origin https://github.com/Ricky-jo111/Kampus-Merdeka.git
 
 >   #### 5. Git push -u origin master (untuk mengirimkan file dari komputer ke repo git)
 
@@ -264,10 +264,42 @@ Simbol dari Logical Operator adalah sebagai berikut:
         }
         output : tidur
 
-    > - IF Else IF 
-    > - Truthy And Falsy
+    > - Else IF 
+    	var angka=2;
+  
+	if (angka==1)
+	{
+	   console.log("Angka Satu");
+	}
+	else if (angka==2)
+	{
+	   console.log("Angka Dua");
+	}
+	else if (angka==3)
+	{
+	   console.log("Angka Tiga");
+	}
+	else if (angka==4)
+	{
+	   console.log("Angka Empat");
+	}
+    
     > - Switch Case 
-    > - Ternary Operator
+	var warna = "merah";
+
+	switch (warna){
+		case "hitam":
+			teks = "warna hitam";
+			break;
+		case "merah":
+			teks = "Warna merah";
+			break;
+		case "hijau":
+			teks = "Warna hijau";
+			break;
+		default:
+		    teks = "Warna tidak terdeteksi";
+	}		
 
 ## JavaScript - LOOPING
 
@@ -299,4 +331,9 @@ Simbol dari Logical Operator adalah sebagai berikut:
 		   m++
 		}while(m<=4)
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 30c35e3fe0f4b3a302e9df3e3e65c66f51a54b80
 
